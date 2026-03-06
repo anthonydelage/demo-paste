@@ -43,13 +43,13 @@ brew install --cask hammerspoon karabiner-elements
 Demo scripts live in a directory outside this repo. The default path is:
 
 ```
-~/Coveo/demo-content/scripts/
+~/demo-scripts/
 ```
 
 Create numbered subdirectories with numbered `.txt` files:
 
 ```
-~/Coveo/demo-content/scripts/
+~/demo-scripts/
   1-intro/
     1.txt
     2.txt
@@ -114,7 +114,7 @@ Without Accessibility permission, hotkeys and text insertion will fail silently.
 
 ### Adding a new demo
 
-1. Create a directory: `~/Coveo/demo-content/scripts/3-my-demo/`
+1. Create a directory: `~/demo-scripts/3-my-demo/`
 2. Add step files: `1.txt`, `2.txt`, etc.
 3. Press `right_option + 3` to activate it. No reload needed.
 

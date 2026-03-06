@@ -10,7 +10,7 @@
 --   ctrl+alt+cmd+1..9           Paste step M of the active demo.
 --
 -- Demo scripts:
---   ~/Coveo/demo-content/scripts/N-<name>/1.txt .. 9.txt
+--   ~/demo-scripts/N-<name>/1.txt .. 9.txt
 --
 -- =============================================================================
 

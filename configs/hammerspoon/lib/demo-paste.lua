@@ -14,7 +14,7 @@
 --                        Deterministic: key M always pastes step M.
 --
 -- Demo scripts live in numbered directories:
---   ~/Coveo/demo-content/scripts/N-<name>/1.txt .. 9.txt
+--   ~/demo-scripts/N-<name>/1.txt .. 9.txt
 --
 -- The directory prefix N maps to demo slot N (max 5).
 -- To add a new demo, create a new N-<name>/ directory with numbered .txt files.
@@ -22,7 +22,7 @@
 
 local utils = require("lib.utils")
 
-local SCRIPTS_DIR  = utils.HOME .. "/Coveo/demo-content/scripts"
+local SCRIPTS_DIR  = utils.HOME .. "/demo-scripts"
 local MAX_DEMOS    = 5
 local MAX_STEPS    = 9
 local MODS         = {"ctrl", "alt", "cmd"}
