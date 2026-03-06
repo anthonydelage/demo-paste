@@ -126,7 +126,7 @@ for step = 1, MAX_STEPS do
       return
     end
 
-    utils.typeText(content)
+    utils.typeTextAnimated(content)
   end)
 end
 

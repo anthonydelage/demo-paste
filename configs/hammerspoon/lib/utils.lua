@@ -56,4 +56,27 @@ function M.typeText(text)
   hs.eventtap.keyStrokes(text)
 end
 
+--- Type text character-by-character at a controlled speed.
+--- Looks like fast typing rather than an instant paste.
+--- @param text string   Text to type.
+--- @param cps  number?  Characters per second (default 80).
+function M.typeTextAnimated(text, cps)
+  cps = cps or 80
+  local chars = {}
+  for i = 1, #text do
+    chars[i] = text:sub(i, i)
+  end
+  local idx = 0
+  local interval = 1 / cps
+  local timer
+  timer = hs.timer.doEvery(interval, function()
+    idx = idx + 1
+    if idx > #chars then
+      timer:stop()
+      return
+    end
+    hs.eventtap.keyStrokes(chars[idx])
+  end)
+end
+
 return M
