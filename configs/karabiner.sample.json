@@ -1,0 +1,53 @@
+{
+    "description": "Right Opt + 0-5 selects demo slot (sends F13-F18)",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "0",
+                "modifiers": { "mandatory": ["right_option"] }
+            },
+            "to": [{ "key_code": "f13" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "1",
+                "modifiers": { "mandatory": ["right_option"] }
+            },
+            "to": [{ "key_code": "f14" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "2",
+                "modifiers": { "mandatory": ["right_option"] }
+            },
+            "to": [{ "key_code": "f15" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "3",
+                "modifiers": { "mandatory": ["right_option"] }
+            },
+            "to": [{ "key_code": "f16" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "4",
+                "modifiers": { "mandatory": ["right_option"] }
+            },
+            "to": [{ "key_code": "f17" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "5",
+                "modifiers": { "mandatory": ["right_option"] }
+            },
+            "to": [{ "key_code": "f18" }],
+            "type": "basic"
+        }
+    ]
+}
